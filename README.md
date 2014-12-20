@@ -11,8 +11,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 4. The results include two tidy datasets: "dat_full" and "dat_tidy". "dat_full" includes measurements of mean and standard deviation of each feature for each subject. "dat_tidy" includes average of each feature variable in "dat_full" on each activity for each subject. 
 
-This is what the R script does: 
-The R script first reads in the test and train datasets and combines them. It also merges the subject and activity data with the features data. 
-It then extracts the measurements on the mean and standard deviation for the features variables. 
-It gives descriptive names to the activities (i.e., walking, standing, etc.) and also labels the feature variables with descriptive names (i.e., tBodyAcc.mean.X, tBodyAcc.mean.Y, etc). 
-It finally calculates the average of each extracted feature variable on each activity for each subject. 
+The R script does the following analysis: 
+
+1. The R script first reads in the test and train datasets and combines them. It also merges the subject and activity data with the features data. 
+
+2. It then extracts the measurements on the mean and standard deviation for the features variables. 
+
+3. It gives descriptive names to the activities (i.e., walking, standing, etc.) and also labels the feature variables with descriptive names (i.e., tBodyAcc.mean.X, tBodyAcc.mean.Y, etc). 
+
+4. It finally calculates the average of each extracted feature variable on each activity for each subject. 
