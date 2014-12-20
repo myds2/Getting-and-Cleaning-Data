@@ -1,10 +1,13 @@
-Getting-and-Cleaning-Data
+How the Script Works
 =========================
 The R script in this folder, "run_analysis.R", works in the following way: 
 1. download the data from the link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 2. unzip the data file and put it in your work directory.
+
 3. run the R script. 
+
 4. The results include two tidy datasets: "dat_full" and "dat_tidy". "dat_full" includes measurements of mean and standard deviation of each feature for each subject. "dat_tidy" includes average of each feature variable in "dat_full" on each activity for each subject. 
 
 This is what the R script does: 
