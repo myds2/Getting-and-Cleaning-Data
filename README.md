@@ -1,6 +1,7 @@
 How the Script Works
 =========================
 The R script in this folder, "run_analysis.R", works in the following way: 
+
 1. download the data from the link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
