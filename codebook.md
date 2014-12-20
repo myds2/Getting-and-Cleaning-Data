@@ -3,6 +3,7 @@ Variables:
 1. subject: 30 subjects with ID from 1 to 30. It comes from combining subject_test and subject_train.
 
 2. activity: 6 activities from combining y_test and y_train.
+
           1 WALKING
  
           2 WALKING_UPSTAIRS
@@ -11,10 +12,9 @@ Variables:
  
           4 SITTING  
           
-5 STANDING
+          5 STANDING
  
           6 LAYING
-
 
 3. Processed feature variables: The original dataset has 561 feature variables. We only select the variables that measure mean and standard deviation of each feature. This leads to 79 feature variables.
 The variables selected include: 
