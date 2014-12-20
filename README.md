@@ -19,6 +19,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 3. run the R script. 
 
-4. The results include two tidy datasets: "dat_full" and "dat_tidy". "dat_full" includes measurements of mean and standard deviation of each feature for each subject. "dat_tidy" includes average of each feature variable in "dat_full" on each activity for each subject. 
+4. The results include two tidy datasets: "dat_full" and "dat_tidy". "dat_full" includes measurements of mean and standard deviation of each feature. "dat_tidy" includes average of each feature variable in "dat_full" on each activity for each subject. 
 
 
