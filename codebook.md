@@ -53,13 +53,6 @@ fBodyGyroMag-std()
 fBodyGyroJerkMag-mean()   
 fBodyGyroJerkMag-std()    
 
-The angle variables are also included:
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean                          
-
 Duplicated variable names: add .2 to the end of the duplicated varialbe name
  for example: "fBodyAcc-bandsEnergy()-1,8"   "fBodyAcc-bandsEnergy()-1,8.2"  
               "fBodyAcc-bandsEnergy()-9,16"  "fBodyAcc-bandsEnergy()-9,16.2"        
